@@ -4,7 +4,7 @@ FROM nginx:alpine
 # Remove default nginx HTML
 RUN rm -rf /usr/share/nginx/html/*
 
-# Copy your HTML file from repo to Nginx folder
+# Copy your files from repo to Nginx folder
 COPY index.html /usr/share/nginx/html/index.html
 COPY sedra.css /usr/share/nginx/html/sedra.css
 
