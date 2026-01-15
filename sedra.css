@@ -1,0 +1,19 @@
+div{
+    
+    color: #a1ed2e;
+    background-color: rgb(92, 43, 226);
+    text-transform: uppercase;
+    word-spacing: .25cm;
+    line-height: 1cm;
+    margin:1px;
+    text-decoration: dotted;
+    text-shadow: brown;
+    box-shadow:rgb(217, 226, 43);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom,blue,rgb(208, 0, 255));
+    overflow: auto; 
+    position: absolute;
+    z-index: -10px;
+}
