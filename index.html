@@ -2,83 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>User Info Form</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .container {
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            width: 300px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-
-        input, button {
-            width: 100%;
-            padding: 8px;
-            margin-top: 10px;
-        }
-
-        button {
-            background: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-
-        .result {
-            margin-top: 15px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            display: none;
-            background: #f9f9f9;
-        }
-    </style>
+    <title>Demo App </title>
 </head>
 <body>
-
-<div class="container">
-    <h3>User Information</h3>
-
-    <input type="text" id="name" placeholder="Enter your name">
-    <input type="number" id="age" placeholder="Enter your age">
-
-    <button onclick="showInfo()">Submit</button>
-
-    <div class="result" id="resultBox"></div>
-</div>
-
-<script>
-    function showInfo() {
-        const name = document.getElementById("name").value;
-        const age = document.getElementById("age").value;
-
-        if (name === "" || age === "") {
-            alert("Please enter both name and age");
-            return;
-        }
-
-        const resultBox = document.getElementById("resultBox");
-        resultBox.innerHTML = `
-            <strong>Name:</strong> ${name}<br>
-            <strong>Age:</strong> ${age}
-        `;
-        resultBox.style.display = "block";
-    }
-</script>
-
+    <p>demo app itx lab</p>
 </body>
+<footer>
+  <p>© 2026 All rights reserved</p>
+</footer>
 </html>
